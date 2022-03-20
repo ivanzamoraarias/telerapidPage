@@ -403,11 +403,16 @@ footer span.copyright {
 }
 footer ul.quicklinks {
 	margin-bottom: 0px;
+	text-align: justify;
+	padding-left: 6em;
 }
 footer ul.quicklinks a {
 	color: #E61D54;
 	line-height: 40px;
 	text-decoration: none;
+}
+footer ul.quicklinks li {
+	max-height: 20px;
 }
 ul.social-buttons {
 	margin-bottom: 0;
